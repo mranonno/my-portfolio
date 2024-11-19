@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const getNavLinkClass = (isActive: boolean) => {
     return isActive
-      ? "text-green-500 text-lg font-medium"
-      : "text-lg font-medium hover:text-green-500";
+      ? "text-green-500 font-poppins text-lg font-medium"
+      : "text-lg font-medium font-poppins hover:text-green-500";
   };
   const navOptions = (
     <>
