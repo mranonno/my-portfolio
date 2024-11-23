@@ -1,5 +1,11 @@
+import IntroduceMySelf from "../components/HomePage/IntroduceMySelf";
+
 const Home = () => {
-  return <div className="container text-green-600">Hello</div>;
+  return (
+    <div className="container">
+      <IntroduceMySelf />
+    </div>
+  );
 };
 
 export default Home;
