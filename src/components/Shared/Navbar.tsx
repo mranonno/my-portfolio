@@ -43,7 +43,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="flex justify-between items-center border-2 rounded-full py-3 px-5 mt-5 sticky">
+    <div className="flex justify-between items-center border-2  rounded-full py-4 px-5 mt-5 top-5 bg-white bg-opacity-60 sticky z-50 backdrop-blur-md">
       <div>Logo</div>
       <div>
         <ul className="flex gap-4">{navOptions}</ul>

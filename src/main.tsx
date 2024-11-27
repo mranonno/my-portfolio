@@ -6,7 +6,7 @@ import { router } from "./routes/Router.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto bg-[#FAFAFA]">
       <RouterProvider router={router} />
     </div>
   </StrictMode>
