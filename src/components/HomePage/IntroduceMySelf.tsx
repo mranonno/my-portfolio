@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
 const IntroduceMySelf = () => {
   return (
-    <div className="flex justify-between items-center mt-24 px-16">
+    <div className="flex justify-between items-center px-16">
       <div className="font-poppins flex-[0.75]">
         <h3 className="font-medium text-lg mb-2">Welcome! I'm</h3>
         <h1 className="text-6xl font-bold bg-gradient-to-r from-fuchsia-600 to-blue-900 text-transparent bg-clip-text">

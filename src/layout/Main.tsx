@@ -4,10 +4,12 @@ import Navbar from "../components/Shared/Navbar";
 
 const Main = () => {
   return (
-    <div className="px-12 relative">
-      <Navbar />
-      <Outlet />
-      {/* <Footer /> */}
+    <div className="py-12 bg-[#FAFAFA]">
+      <div className="max-w-screen-xl mx-auto">
+        <Navbar />
+        <Outlet />
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 };

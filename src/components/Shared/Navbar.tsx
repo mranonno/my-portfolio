@@ -4,7 +4,7 @@ const Navbar = () => {
   const getNavLinkClass = (isActive: boolean) => {
     return isActive
       ? "text-fuchsia-700 font-poppins text-lg font-medium"
-      : "text-lg font-medium font-poppins hover:text-fuchsia-700";
+      : "text-lg font-medium font-poppins hover:text-fuchsia-700 transition-color duration-500";
   };
   const navOptions = (
     <>
@@ -43,7 +43,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="flex justify-between items-center border-2  rounded-full py-4 px-5 mt-5 top-5 bg-white bg-opacity-60 sticky z-50 backdrop-blur-md">
+    <div className="flex justify-between items-center border-2 rounded-full py-4 px-5 bg-white bg-opacity-60  z-50 backdrop-blur-md sticky top-12">
       <div>Logo</div>
       <div>
         <ul className="flex gap-4">{navOptions}</ul>

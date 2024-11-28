@@ -3,7 +3,7 @@ import IntroduceMySelf from "../components/HomePage/IntroduceMySelf";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="mt-24">
       <IntroduceMySelf />
       <ExpertiseSkills />
     </div>
