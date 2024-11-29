@@ -9,7 +9,7 @@ const IntroduceMySelf = () => {
     <div className="flex justify-between items-center px-16">
       <div className="font-poppins flex-[0.75]">
         <h3 className="font-medium text-lg mb-2">Welcome! I'm</h3>
-        <h1 className="text-6xl font-bold bg-gradient-to-r from-fuchsia-600 to-blue-900 text-transparent bg-clip-text">
+        <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-700 to-blue-700 inline-block">
           ANONNO
         </h1>
         <h2 className="text-2xl font-semibold mr-5 mt-8">
@@ -21,13 +21,13 @@ const IntroduceMySelf = () => {
           design.
         </h3>
         <div className="mt-8 flex">
-          <button className="flex items-center gap-2 py-3 px-4 border border-fuchsia-400 rounded-l-full uppercase text-fuchsia-500">
+          <button className="flex items-center gap-2 py-3 px-4 border border-fuchsia-700 rounded-l-full uppercase text-fuchsia-700">
             <span>
               <MdOutlineFileDownload size={20} />
             </span>
             resume
           </button>
-          <button className="flex items-center gap-2 py-3 text-fuchsia-500 px-4 border rounded-r-full uppercase border-fuchsia-400 border-l-0">
+          <button className="flex items-center gap-2 py-3 text-fuchsia-700 px-4 border rounded-r-full uppercase border-fuchsia-700 border-l-0">
             <span>
               <IoEye size={20} />
             </span>
@@ -42,7 +42,7 @@ const IntroduceMySelf = () => {
           >
             <FaGithub
               size={24}
-              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-500"
+              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-700"
             />
           </a>
 
@@ -58,15 +58,21 @@ const IntroduceMySelf = () => {
           </a>
           <a href="mailto:anonnodas97@gmail.com">
             <FiMail
-              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-500"
+              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-700"
               size={24}
             />
           </a>
+          <a
+            href="https://www.instagram.com/mranonno1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaDiscord
+              size={24}
+              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-700"
+            />
+          </a>
 
-          <FaDiscord
-            size={24}
-            className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-500"
-          />
           <a
             href="https://www.instagram.com/mranonno1/"
             target="_blank"
@@ -74,13 +80,13 @@ const IntroduceMySelf = () => {
           >
             <FaInstagram
               size={24}
-              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-500"
+              className="hover:-translate-y-2 transition-transform duration-300 text-gray-500 hover:text-fuchsia-700"
             />
           </a>
         </div>
       </div>
       <div className="rotate-6 relative hover:scale-95 transition duration-1000 mr-24">
-        <div className="w-44 h-52 overflow-hidden rounded-md z-20 relative border-2 border-fuchsia-800">
+        <div className="w-44 h-52 overflow-hidden rounded-md z-20 relative border-2 border-fuchsia-700">
           <img src={profileImage} />
         </div>
         <div className="w-44 h-52 absolute z-10 left-4 top-4 border-2 rounded-md" />
