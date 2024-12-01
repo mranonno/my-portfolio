@@ -13,7 +13,7 @@ const ServiceCard: FC<ServiceCardProps> = ({
   rotate,
 }) => {
   return (
-    <div className="border rounded-xl px-6 py-8 flex justify-between gap-6">
+    <div className="border rounded-xl px-6 py-8 flex justify-between gap-6 bg-white">
       <div>
         <Icon
           className={`text-gray-300 ${
