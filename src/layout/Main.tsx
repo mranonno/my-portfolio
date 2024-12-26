@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Shared/Navbar";
-// import Footer from "../components/Shared/Footer";
+import Footer from "../components/Shared/Footer";
 
 const Main = () => {
   return (
@@ -8,7 +8,7 @@ const Main = () => {
       <div className="max-w-screen-xl mx-auto">
         <Navbar />
         <Outlet />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
