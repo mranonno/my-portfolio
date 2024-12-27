@@ -207,7 +207,7 @@ const About = () => {
                   </span>
                   <span className="ml-4 flex min-w-0 flex-col">
                     <span className="text-lg font-semibold text-fuchsia-500">
-                      Junior Software Engineer
+                      Mobile App Developer
                     </span>
                     <span className="text-xl font-bold text-zinc-700 ">
                       TECH V ZERO - Full-time
