@@ -1,5 +1,14 @@
+import { Helmet } from "react-helmet-async";
+
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <div>
+      <Helmet>
+        <title>Anonno | Projects</title>
+      </Helmet>
+      Projects
+    </div>
+  );
 };
 
 export default Projects;

@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border my-8" />
-      <div className="text-center space-y-2 mb-8">
+      <div className="text-center space-y-2 pb-8">
         <h3>Designed & Developed by Anonno</h3>
         <p>Copyright © 2023 - All right reserved by Anonno</p>
       </div>

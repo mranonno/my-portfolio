@@ -1,4 +1,4 @@
-import profileImage from "../../assets/images/Anonno Das.jpg";
+import profileImage from "../../assets/images/AnonnoDas.jpg";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { IoEye } from "react-icons/io5";
 import SocialLink from "../Shared/SocialLink";
