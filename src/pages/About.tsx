@@ -28,8 +28,8 @@ const About = () => {
             <span className="font-bold">Self-driven</span>,{" "}
             <span className="font-bold">focused</span>, and{" "}
             <span className="font-bold">dedicated</span> Software Developer with{" "}
-            <span className="font-bold">2+</span> years of experience, including{" "}
-            <span className="font-bold">1+</span> years of industrial
+            <span className="font-bold">1+</span> years of experience, including{" "}
+            <span className="font-bold">6+</span> months of industrial
             experience. I am passionate about programming, developing new
             products, and exploring new technologies. Well-versed in modern web
             technologies and version control systems. Slow-paced learner, a good
@@ -58,9 +58,9 @@ const About = () => {
             </span>
           </h3>
           <p className="text-justify text-zinc-700 ">
-            On July 1, 2021, I started to learn Web Development. The course was
-            offered by Programming Hero. It was a beginner-level course that
-            started from zero to a junior-level standard. Within five months, I
+            On January 1, 2023, I started to learn Web Development. The course
+            was offered by Programming Hero. It was a beginner-level course that
+            started from zero to a junior-level standard. Within sixth months, I
             completed the course successfully and learned the basics of MERN
             Stack. I finished a few projects with this tech stack. Besides this,
             to the extent of this course, I completed a long-term (7 weeks) team
@@ -93,14 +93,14 @@ const About = () => {
           </p>
           <p className="text-justify text-zinc-700 ">
             I'm also familiar with JWT, React Native, Redux, Stripe, Tailwind
-            CSS, and Material UI.
+            CSS,Daisy UI and Material UI.
           </p>
           <p className="text-justify text-zinc-700 ">
             Besides these, I'm used to a few tools, like - Git, VS Code, Figma,
-            Jira, Vercel, Heroku, Netlify, and Chrome Dev Tool.
+            Vercel, Netlify, and Chrome Dev Tool.
           </p>
           <p className="text-justify text-zinc-700 ">
-            Currently, I'm working on Vue JS, Nuxt JS, Next JS, and necessary
+            Currently, I'm working on Next JS, React Native and necessary
             packages.
           </p>
         </div>
@@ -143,7 +143,7 @@ const About = () => {
                     </span>
                   </span>
                   <span className="ml-4 flex min-w-0 flex-col">
-                    <span className="text-lg font-semibold text-fuchsia-500">
+                    <span className="text-lg font-semibold text-fuchsia-700">
                       European University of Bangladesh
                     </span>
                     <span className="text-xl font-bold text-zinc-700 ">
@@ -206,14 +206,16 @@ const About = () => {
                     </span>
                   </span>
                   <span className="ml-4 flex min-w-0 flex-col">
-                    <span className="text-lg font-semibold text-fuchsia-500">
+                    <span className="text-lg font-semibold text-fuchsia-700">
                       Mobile App Developer
                     </span>
                     <span className="text-xl font-bold text-zinc-700 ">
-                      TECH V ZERO - Full-time
+                      TS4U Ltd. - Intern
                     </span>
-                    <span className="text-zinc-600 ">May 2022 - Present</span>
-                    <span className="text-zinc-600 ">New Delhi, India</span>
+                    <span className="text-zinc-600 ">
+                      October 2024 - Present
+                    </span>
+                    <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
                   </span>
                 </p>
               </li>
@@ -237,7 +239,7 @@ const About = () => {
                     </span>
                   </span>
                   <span className="ml-4 flex min-w-0 flex-col">
-                    <span className="text-lg font-semibold text-fuchsia-500">
+                    <span className="text-lg font-semibold text-fuchsia-700">
                       Analyst
                     </span>
                     <span className="text-xl font-bold text-zinc-700 ">
