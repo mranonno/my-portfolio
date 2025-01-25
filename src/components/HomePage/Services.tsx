@@ -4,6 +4,7 @@ import ServiceCard from "./ServiceCard";
 import { HiOutlineBugAnt } from "react-icons/hi2";
 import { BsTerminal } from "react-icons/bs";
 import { SlScreenTablet } from "react-icons/sl";
+import { SiCypress } from "react-icons/si";
 
 const Services = () => {
   return (
@@ -32,6 +33,12 @@ const Services = () => {
           title="Bug Fixing"
           subTitle="Fixing bugs, redesign UI and improve app performance"
           icon={HiOutlineBugAnt}
+          rotate="right"
+        />
+        <ServiceCard
+          title="API Automation"
+          subTitle="Effortlessly automate API testing using Cypress for robust validation"
+          icon={SiCypress}
           rotate="right"
         />
       </div>

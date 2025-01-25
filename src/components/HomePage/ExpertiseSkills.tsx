@@ -3,7 +3,7 @@ import SectionTitle from "../Shared/SectionTitle";
 import SkillCard from "./SkillCard";
 import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs, FaReact } from "react-icons/fa";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiCypress, SiExpress, SiMongodb, SiPostman } from "react-icons/si";
 import { IconType } from "react-icons";
 type Skills = {
   title: string;
@@ -35,13 +35,13 @@ const ExpertiseSkills = () => {
       title: "React JS",
       subTitle: "JavaScript Lib...",
       icon: FaReact,
-      rating: 2,
+      rating: 4,
     },
     {
       title: "React Native",
       subTitle: "UI Framework",
       icon: FaReact,
-      rating: 0,
+      rating: 3,
     },
     {
       title: "Node JS",
@@ -60,6 +60,18 @@ const ExpertiseSkills = () => {
       subTitle: "NoSQL Datab...",
       icon: SiMongodb,
       rating: 2,
+    },
+    {
+      title: "Postman",
+      subTitle: "API Testing Tool",
+      icon: SiPostman,
+      rating: 4,
+    },
+    {
+      title: "Cypress",
+      subTitle: "E2E Testing Fra...",
+      icon: SiCypress,
+      rating: 3,
     },
   ];
   return (
