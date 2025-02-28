@@ -58,7 +58,7 @@ const About = () => {
             </span>
           </h3>
           <p className="text-justify text-zinc-700 ">
-            On January 1, 2023, I started to learn Web Development. The course
+            On January 1, 2024, I started to learn Web Development. The course
             was offered by Programming Hero. It was a beginner-level course that
             started from zero to a junior-level standard. Within sixth months, I
             completed the course successfully and learned the basics of MERN
@@ -93,11 +93,11 @@ const About = () => {
           </p>
           <p className="text-justify text-zinc-700 ">
             I'm also familiar with JWT, React Native, Redux, Stripe, Tailwind
-            CSS,Daisy UI and Material UI.
+            CSS, Daisy UI, AntDesign, Shadcn UI and Material UI.
           </p>
           <p className="text-justify text-zinc-700 ">
             Besides these, I'm used to a few tools, like - Git, VS Code, Figma,
-            Vercel, Netlify, and Chrome Dev Tool.
+            Postman, Vercel, Netlify, and Chrome Dev Tool.
           </p>
           <p className="text-justify text-zinc-700 ">
             Currently, I'm working on Next JS, React Native and necessary
@@ -153,7 +153,7 @@ const About = () => {
                       September 2021 - September 2024
                     </span>
                     <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
-                    <span className="my-3">
+                    {/* <span className="my-3">
                       <p className="text-zinc-700  font-semibold">Activity</p>
                     </span>
                     <span className="py-3 pl-4 pr-2 bg-stone-100 border-l-4 border-stone-200 rounded">
@@ -164,7 +164,7 @@ const About = () => {
                         Analyzing Smartphone Users' Application Adoption
                         Behavior - An Approach for Achieving Wider Acceptance
                       </p>
-                    </span>
+                    </span> */}
                   </span>
                 </div>
               </li>
@@ -192,16 +192,16 @@ const About = () => {
           <nav aria-label="Progress">
             <ol role="list" className="overflow-hidden">
               <li className="pb-10 relative">
-                <div
+                {/* <div
                   className="absolute top-4 left-4 -ml-px mt-0.5 h-full w-0.5 bg-fuchsia-500"
                   aria-hidden="true"
-                ></div>
+                ></div> */}
                 <p
                   className="group relative flex items-start"
                   aria-current="step"
                 >
                   <span className="flex h-9 items-center" aria-hidden="true">
-                    <span className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-3 border-fuchsia-500 bg-white">
+                    <span className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border border-3 border-fuchsia-500 bg-white">
                       <span className="h-2.5 w-2.5 rounded-full bg-fuchsia-500 animate-pulse group-hover:animate-ping"></span>
                     </span>
                   </span>
@@ -219,7 +219,7 @@ const About = () => {
                   </span>
                 </p>
               </li>
-              <li className="relative">
+              {/* <li className="relative">
                 <p className="group relative flex items-start">
                   <span className="flex h-9 items-center">
                     <span className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full bg-fuchsia-500 ">
@@ -251,7 +251,7 @@ const About = () => {
                     <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
                   </span>
                 </p>
-              </li>
+              </li> */}
             </ol>
           </nav>
         </div>
