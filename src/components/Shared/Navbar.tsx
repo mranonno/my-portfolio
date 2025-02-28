@@ -1,6 +1,10 @@
 import { NavLink } from "react-router-dom";
+import { Switch } from "../ui/switch";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isChecked, setIsChecked] = useState<boolean>(false);
+  console.log(isChecked);
   const getNavLinkClass = (isActive: boolean) => {
     return isActive
       ? "text-fuchsia-700 font-poppins text-lg font-medium"
@@ -52,7 +56,11 @@ const Navbar = () => {
           <ul className="flex gap-4">{navOptions}</ul>
         </div>
         <div>
-          <label className="grid cursor-pointer place-items-center">
+          <Switch
+            checked={isChecked}
+            onCheckedChange={() => setIsChecked(!isChecked)}
+          />
+          {/* <label className="grid cursor-pointer place-items-center">
             <input
               type="checkbox"
               value="synthwave"
@@ -87,7 +95,7 @@ const Navbar = () => {
             >
               <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
-          </label>
+          </label> */}
         </div>
       </div>
     </div>
