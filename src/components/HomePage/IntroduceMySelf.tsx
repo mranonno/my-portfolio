@@ -4,7 +4,7 @@ import { IoEye } from "react-icons/io5";
 import SocialLink from "../Shared/SocialLink";
 const IntroduceMySelf = () => {
   return (
-    <div className="flex justify-between items-center px-16">
+    <div className="flex flex-col-reverse md:flex-row justify-between items-center px-16">
       <div className="font-poppins flex-[0.75]">
         <h3 className="font-medium text-lg mb-2">Welcome! I'm</h3>
         <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-700 to-blue-700 inline-block">

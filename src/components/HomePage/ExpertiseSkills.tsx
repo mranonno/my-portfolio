@@ -77,7 +77,7 @@ const ExpertiseSkills = () => {
   return (
     <div>
       <SectionTitle backgroundTitle="expertise" title="skills" />
-      <div className="grid grid-cols-4 gap-x-8 gap-y-12">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-12">
         {allSkills.map((skill, index) => (
           <SkillCard
             key={index}

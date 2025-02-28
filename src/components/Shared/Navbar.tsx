@@ -43,7 +43,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0 z-50 hidden md:block">
       <div className="py-4 bg-gradient-to-b from-[#FAFAFA] to-[#FAFAFA80]"></div>
 
       <div className="flex justify-between items-center border-2 rounded-full py-4 px-5 bg-white bg-opacity-60  backdrop-blur-md ">
