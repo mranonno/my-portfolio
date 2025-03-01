@@ -6,7 +6,7 @@ const Projects = () => {
       <Helmet>
         <title>Anonno | Projects</title>
       </Helmet>
-      Projects
+      Projectss
     </div>
   );
 };
