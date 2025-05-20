@@ -29,7 +29,7 @@ const IntroduceMySelf = () => {
             <span>
               <IoEye size={20} />
             </span>
-            resumes
+            resume
           </button>
         </div>
         <SocialLink />
