@@ -213,7 +213,7 @@ const About = () => {
                       TS4U Ltd. - Intern
                     </span>
                     <span className="text-zinc-600 ">
-                      October 2024 - Present
+                      October 2024 - March 2025
                     </span>
                     <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
                   </span>
