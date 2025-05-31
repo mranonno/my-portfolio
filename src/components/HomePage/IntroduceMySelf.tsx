@@ -19,12 +19,15 @@ const IntroduceMySelf = () => {
           design.
         </h3>
         <div className="mt-8 flex">
-          <button className="flex items-center gap-2 py-3 px-4 border border-fuchsia-700 rounded-l-full uppercase text-fuchsia-700">
-            <span>
-              <MdOutlineFileDownload size={20} />
-            </span>
-            resume
-          </button>
+          <a
+            href="/public/assest/Anonno_Das.pdf"
+            download
+            className="flex items-center gap-2 py-3 px-4 border border-fuchsia-700 rounded-l-full uppercase text-fuchsia-700"
+          >
+            <MdOutlineFileDownload size={20} />
+            Resume
+          </a>
+
           <button className="flex items-center gap-2 py-3 text-fuchsia-700 px-4 border rounded-r-full uppercase border-fuchsia-700 border-l-0">
             <span>
               <IoEye size={20} />
