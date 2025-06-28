@@ -7,8 +7,9 @@ Hello! I am a passionate software developer with experience in building web and 
 ### Project 1: my-portfolio
 
 - **Description**: A web application that allows users to track their tasks and manage their time efficiently.
-- **Technologies**: ReactJs,
+- **Technologies**: ReactJs, Typescript, Firebase
 - **GitHub**: [Link to repository](https://github.com/mranonno/my-portfolio)
+- **Portfolio**: [Link to Portfolio](https://mranonno-portfolio.web.app)
 
 ## Skills
 
