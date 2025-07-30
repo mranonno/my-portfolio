@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SocialLink from "./SocialLink";
+import logoImg from "../../assets/logo/logo_anonno.png";
 
 const Footer = () => {
   return (
@@ -7,8 +8,8 @@ const Footer = () => {
       <div className="border mb-8" />
       <div className="flex items-center pb-4 gap-24">
         <div className="flex-[0.7]">
-          <div>
-            <h3 className="text-3xl text-fuchsia-800 py-4">[LOGO]</h3>
+          <div className="size-12">
+            <img src={logoImg} alt="Logo" />
           </div>
           <p className="text-justify">
             Self-driven focused, and dedicated Software Develop with 1+ years of
@@ -40,7 +41,7 @@ const Footer = () => {
       <div className="border my-8" />
       <div className="text-center space-y-2 pb-8">
         <h3>Designed & Developed by Anonno</h3>
-        <p>Copyright © 2023 - All right reserved by Anonno</p>
+        <p>Copyright © 2024 - All right reserved by Anonno</p>
       </div>
     </div>
   );

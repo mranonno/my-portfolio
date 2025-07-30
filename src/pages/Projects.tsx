@@ -6,7 +6,9 @@ const Projects = () => {
       <Helmet>
         <title>Anonno | Projects</title>
       </Helmet>
-      Projectss
+      <p className="text-center text-2xl font-semibold mt-10 text-gray-700">
+        Projects are coming soon!
+      </p>
     </div>
   );
 };

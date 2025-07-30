@@ -6,7 +6,9 @@ const Articles = () => {
       <Helmet>
         <title>Anonno | Articles</title>
       </Helmet>
-      Articles
+      <p className="text-center text-2xl font-semibold mt-10 text-gray-700">
+        Articles are coming soon!
+      </p>
     </div>
   );
 };

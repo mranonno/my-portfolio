@@ -150,7 +150,7 @@ const About = () => {
                       Bachelor of Science, Electrical and Electronic Engineering
                     </span>
                     <span className="text-zinc-600 ">
-                      September 2021 - September 2024
+                      September 2021 - February 2025
                     </span>
                     <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
                     {/* <span className="my-3">
@@ -192,10 +192,10 @@ const About = () => {
           <nav aria-label="Progress">
             <ol role="list" className="overflow-hidden">
               <li className="pb-10 relative">
-                {/* <div
+                <div
                   className="absolute top-4 left-4 -ml-px mt-0.5 h-full w-0.5 bg-fuchsia-500"
                   aria-hidden="true"
-                ></div> */}
+                ></div>
                 <p
                   className="group relative flex items-start"
                   aria-current="step"
@@ -210,16 +210,14 @@ const About = () => {
                       Mobile App Developer
                     </span>
                     <span className="text-xl font-bold text-zinc-700 ">
-                      TS4U Ltd. - Intern
+                      Xrodev
                     </span>
-                    <span className="text-zinc-600 ">
-                      October 2024 - March 2025
-                    </span>
+                    <span className="text-zinc-600 ">May 2025 - Present</span>
                     <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
                   </span>
                 </p>
               </li>
-              {/* <li className="relative">
+              <li className="relative">
                 <p className="group relative flex items-start">
                   <span className="flex h-9 items-center">
                     <span className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full bg-fuchsia-500 ">
@@ -240,18 +238,18 @@ const About = () => {
                   </span>
                   <span className="ml-4 flex min-w-0 flex-col">
                     <span className="text-lg font-semibold text-fuchsia-700">
-                      Analyst
+                      Mobile App and Web Developer
                     </span>
                     <span className="text-xl font-bold text-zinc-700 ">
-                      Quantanite - Full-time
+                      TS4U Ltd. - Intern
                     </span>
                     <span className="text-zinc-600 ">
-                      April 2020 - July 2020
+                      October 2024 - March 2025
                     </span>
                     <span className="text-zinc-600 ">Dhaka, Bangladesh</span>
                   </span>
                 </p>
-              </li> */}
+              </li>
             </ol>
           </nav>
         </div>
